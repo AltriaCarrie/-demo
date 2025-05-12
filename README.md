@@ -40,23 +40,17 @@
 
 * **滚筒输出转矩及功率**：滚筒有效圆周力 \$F = 2450\~\text{N}\$ 作用在滚筒半径 \$R = D/2 = 0.0825\~\text{m}\$ 处，将产生输出转矩
 
-  $$
-  T_{\text{out}} = F \times R = 2450 \times 0.0825 \approx 201.1~\text{N·m}\,. 
-  $$
+  \$T_{\text{out}} = F \times R = 2450 \times 0.0825 \approx 201.1~\text{N·m}\,.\$
 
   该转矩下，滚筒输出功率
 
-  $$
-  P_{\text{out}} = F \times v = 2450~\text{N} \times 1.0~\text{m/s} = 2450~\text{W} = 2.45~\text{kW}\,. 
-  $$
+  \$P_{\text{out}} = F \times v = 2450~\text{N} \times 1.0~\text{m/s} = 2450~\text{W} = 2.45~\text{kW}\,.\$
 
   这2.45 kW是滚筒（输出端）在正常运行时需要的机械功率。
 
 * **估算电机功率**：考虑传动效率约为0.90，电动机输出功率需满足 \$P\_{\text{motor}} \times \eta \ge P\_{\text{out}}\$。因此电机输出功率至少
 
-  $$
-  P_{\text{motor(min)}} = \frac{P_{\text{out}}}{\eta} = \frac{2.45~\text{kW}}{0.90} \approx 2.72~\text{kW}\,. 
-  $$
+  \$P_{\text{motor(min)}} = \frac{P_{\text{out}}}{\eta} = \frac{2.45~\text{kW}}{0.90} \approx 2.72~\text{kW}\,.\$
 
   此外考虑启动和长期连续运行的附加因素，应为电机选取一定功率裕量。启动瞬间载荷为名义的1.25倍，即启动时滚筒所需功率约 \$P\_{\text{start}} = 1.25 \times 2.45 \approx 3.06\~\text{kW}\$（假定启动加速过程中速度接近正常值）。再考虑连续16小时/天、10年寿命对电机的要求，一般选用\*\*连续工作制（S1）\*\*下具有适当富裕功率的电机，以避免电机长时间满载过热。
 
