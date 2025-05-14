@@ -40,7 +40,7 @@ $$n_{\text{滚筒}} = \frac{60v}{\pi D} = \frac{60 \times 1.0}{\pi \times 0.165}
 
 * **滚筒输出转矩及功率**：滚筒有效圆周力 $F = 2450\~\text{N}$ 作用在滚筒半径 $R = D/2 = 0.0825\~\text{m}$ 处，将产生输出转矩
 
-$$T_{\text{out}} = F \times R = 2450 \times 0.0825 \approx 201.1~\text{N·m}\,$$
+$$T_{\text{out}} = F \times R = 2450 \times 0.0825 \approx 202.1~\text{N·m}\,$$
 
   该转矩下，滚筒输出功率
 
